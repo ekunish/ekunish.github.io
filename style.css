@@ -1,0 +1,119 @@
+@charset  "UTF-8";
+@-ms-viewport {width: device-width;}
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+	color: #202020;
+	font-family: 'Noto Sans Japanese','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 1.3rem;
+	-webkit-font-smoothing: subpixel–antialiased;
+	-webkit-text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	margin: auto;
+	padding: 0 15px 0 15px; 
+	text-align: center;
+	max-width: 767px;
+	min-width: 416px;
+	margin-bottom: 10%;
+	
+	/* for IF6 */
+	_font-family: "ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+p {
+	font-family: 'Noto Sans Japanese','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	font-weight: 300;
+	line-height: 1.3rem;
+	font-size: 13px;
+	line-height: 1.2rem;
+	transform: rotate(0.001deg);
+}
+
+bold {
+	font-weight: bold;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+#header {
+	margin: 8% 0% 8% 0%;
+}
+
+#title {
+	
+	margin: 8% 0% 6% 0%;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+#cover {
+	margin: 8% 0% 0% 0%;
+}
+
+
+#sentence {
+	margin: 3.0% 0% 8.0% 0%;
+	text-align: left;
+}
+
+#notice {
+	margin: 3% 0% 8% 0%;
+}
+
+table {
+	margin: 0px;
+	width: 100%;
+	line-height: 1.3em;
+}
+
+small {
+	line-height: 0.5rem;
+	font-size: 0.7rem;
+}
+
+h1{
+	font-family: 'Noto Sans Japanese','Helvetica','ヒラギノ角ゴ Pro W3', 'メイリオ','Meiryo','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	margin: 8% 0% 3.0% 0%;
+	font-size: 1.6rem;
+	text-align: left;
+	font-weight: 300;
+}
+h2{
+	font-family: 'Noto Sans Japanese','Helvetica','ヒラギノ角ゴ Pro W3', 'メイリオ','Meiryo','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	margin: 9% 0% 3% 0%;
+	font-size: 1.37rem;
+	text-align: left;
+	font-weight: bolder;	
+}
+
+h3{
+	font-family: 'Noto Sans Japanese','Helvetica','ヒラギノ角ゴ Pro W3', 'メイリオ','Meiryo','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	margin: 0% 0% 0% 0%;
+	font-size: 1rem;
+	text-align: left;
+	font-weight: 300;
+}
+
+
+table{
+	margin: 0%;
+	width: 100%;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+td {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  vertical-align: top;
+}
